@@ -1,4 +1,4 @@
-/* CSS original */
+
 *{
   padding: 0;
   margin: 0;
@@ -304,7 +304,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) { /* Tablets pequeños y teléfonos grandes */
+@media (max-width: 768px) 
   header {
     flex-direction: column;
     height: auto;
