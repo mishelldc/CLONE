@@ -1,325 +1,268 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clone</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <!--header-->
-    <header class="header">
-        <div class="logo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_DZxm6tkhgK6qGqgaLzwn8J7NHfIJJ9ivNAglc0V5g&s" alt="Smart Fit Logo">
-        </div>
-        <div class="menu">
-            <span class="material-symbols-outlined">
-                menu
-            </span>
-        </div>
+<div class="contenedor">
+    <!-- header -->
+    <header>
+        <img src="https://assets3.smartfit.com.br/assets/new-home-v4-assets/logo-dark.svg" alt="" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2801/2801909.png" alt="" class="rayitas">
     </header>
 
-    <!--buscador-->
-    <main>
-        <div class="seccionuno">
-            <p class="titulo"><h1>Entonces, ¿dónde quieres entrenar?</h1></p>
-            <div class="search-bar">
-                <input type="text" id="search-input" placeholder="Ingresa tu zona, ciudad o Código Postal">
-                <span class="material-symbols-outlined search-icon">
-                    search
-                </span>
-            </div>
-        </div>
-
-        <!-- Cartas -->
-        <div class="Locations">
-            <div class="caja-padre">
-
-                <div class="card">
-                    <img src="https://pictures.smartfit.com.br/12383/big/GoL_240210_SmartFit_Tinajon_0022.jpg?1707716762" alt="">
-                    <div class="info">
-                        <h3>Tinajón Quetzaltenango</h3>
-                        <p>09001 - Diagonal 2 9-62 -, Quetzaltenango - 09</p>
-                        <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui">Ver gimnasio</a>
-                    </div>
-    
-                    <!--seccion de precios-->
-                    <div class="card_plans">    
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">SMART</span>
-                        <span class="plans_item_price">Q150.00
-                        </span>
-                    </div>
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">BLACK</span>
-                        <span class="plans_item_price">Q215.00
-                        </span>
-                    </div>
-                    </div>
-    
-                    <!--seccion del boton-->
-                    <div class="boton">¡Inscríbete ya!</div>
-                </div>
+    <!-- Titulo y barra de busqueda -->
+    <div class="tb">
+        <h1 class="titulo"> Entonces, ¿dónde quieres entrenar? </h1>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Ingresa tu zona, ciudad o Código Postal">
             
-            <div class="dos">
-                <img src="https://pictures.smartfit.com.br/14215/big/aeeb219caa5990c08b0f4282c8ac63e3.jpeg?1717294437" alt="">
-                <div class="info">
-                <h3>Cobán</h3>
-                <p>16001 - Primera calle quince guion veinte (15-20)
-                    de la zona dos (2) de la ciudad de Cobán,
-                    cabecera departamental de Alta Verapaz, 15 -
-                    Campur - 16
-                </p>
-                <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
-                </div>
+            </span>
+        </div>
+    </div>
 
-                <div class="card_plans">    
-                    <div class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">SMART</span>
-                        <span class="plans_item_price">Q150.00
-                        </span>
-                    </div>
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">BLACK</span>
-                        <span class="plans_item_price">Q215.00
-                        </span>
-                    </div>
-                    </div>
-
-                     <!--seccion del boton-->
-                <div class="boton">¡Inscríbete ya!</div>
+    <!-- apartado de cartas cosos -->
+    <div class="seccion_cartas">
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/10631/big/GoL_140305_SmartFit_ESKALA_0048.jpg?1664239132" alt="Eskala">
+            <div class="card-body">
+                <h3>Eskala</h3>
+                <p>01007 - Km 13.8 Carretera Roosevelt, zona 3 de Mixco, segundo nivel - Guatemala, Ciudad de Guatemala - 01</p>
+                <a href="#">Ver gimnasio</a>
             </div>
-
-            <div class="tres">
-                <img src="https://pictures.smartfit.com.br/12382/big/GoL_240127_SmartFitGT_TECA_0066.jpg?1706591506" alt="">
-                <div class="info">
-                    <h3>Teca Coatepeque</h3>
-                <p>09020 - 6 calle y Blvd Henry Sierra -,
-                    Coatepeuqe -09
-                </p>
-                <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q175.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
                 </div>
-
-                <div class="card_plans">    
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">SMART</span>
-                        <span class="plans_item_price">Q150.00
-                        </span>
-                    </div>
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">BLACK</span>
-                        <span class="plans_item_price">Q215.00
-                        </span>
-                    </div>
-                    </div>
-
-                     <!--seccion del boton-->
-                <div class="boton">¡Inscríbete ya!</div>
-            </div>
-
-            <div class="cuatro">
-                <img src="https://pictures.smartfit.com.br/11653/big/GoL_230821_SmartFIt_Mazate_0031_1.jpg?1692855743" alt="">
-                <div class="info">
-                    <h3>Smart Fit Mazatenango</h3>
-                <p>10001 -Km 158 Carretera CA-2 Plaza Américas,
-                    zona tres de municipio de Mazatenango,
-                    departamento de Suchitepéquez -, Mazatenango 
-                    -10
-                </p>
-                <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
-                </div>
-
-                <div class="card_plans">    
-                    <div class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">SMART</span>
-                        <span class="plans_item_price">Q150.00
-                        </span>
-                    </div>
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">BLACK</span>
-                        <span class="plans_item_price">Q215.00
-                        </span>
-                    </div>
-                    </div>
-
-                     <!--seccion del boton-->
-                <div class="boton">¡Inscríbete ya!</div>
-            </div>
-
-            <div class="cinco">
-                <img src="https://pictures.smartfit.com.br/10631/big/GoL_140305_SmartFit_ESKALA_0048.jpg?1664239132" alt="">
-                <div class="info">
-                    <h3>Eskala</h3>
-                <p>01007 - Km 13.8 Carretera Roosevelt, zona 3 de
-                    Mixco, segundo nivel - Guatemala, Ciudad de 
-                    Guatemala -01
-                </p>
-                <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
-                </div>
-
-                <div class="card_plans">    
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">SMART</span>
-                        <span class="plans_item_price">Q175.00
-                        </span>
-                    </div>
-                    <div class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">BLACK</span>
-                        <span class="plans_item_price">Q215.00
-                        </span>
-                    </div>
-                    </div>
-
-                     <!--seccion del boton-->
-                <div class="boton">¡Inscríbete ya!</div>
-            </div>
-
-            <div class="seis">
-                <img src="https://pictures.smartfit.com.br/10257/big/JM_220411_SmartFitMinutoCAES_0053.jpg?1650309579" alt="">
-                <div class="info">
-                    <h3>Minuto CAES</h3>
-                <p>01051 - Km 22 - , Fraijanes - 01</p>
-                <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
-                </div>
-
-                <div class="card_plans">    
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">SMART</span>
-                        <span class="plans_item_price">Q195.00
-                        </span>
-                    </div>
-                    <div  class="plans_item" href="" title="smart">
-                        <span class="plans_item_name">BLACK</span>
-                        <span class="plans_item_price">Q215.00
-                        </span>
-                    </div>
-                    </div>
-
-                     <!--seccion del boton-->
-                <div class="boton">¡Inscríbete ya!</div>
-            </div>
-
-            <!--dos tarjetas-->
-            <div class="cajatwo">
-                <div class="siete">
-                    <img src="https://pictures.smartfit.com.br/10012/big/GoL_220115_SmartFitNARAMA_0017.jpg?1681132588" alt="">
-                    <div class="info">
-                        <h3>Narama Zona 13 </h3>
-                    <p>01013 -5a avenida 16-14 - , Ciudad de Guatemala
-                        -01
-                    </p>
-                    <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
-                    </div>
-    
-                    <div class="card_plans">    
-                        <div  class="plans_item" href="" title="smart">
-                            <span class="plans_item_name">SMART</span>
-                            <span class="plans_item_price">Q175.00
-                            </span>
-                        </div>
-                        <div  class="plans_item" href="" title="smart">
-                            <span class="plans_item_name">BLACK</span>
-                            <span class="plans_item_price">Q215.00
-                            </span>
-                        </div>
-                        </div>
-    
-                         <!--seccion del boton-->
-                    <div class="boton">¡Inscríbete ya!</div>
-                </div>
-    
-                <div class="ocho">
-                    <img src="https://pictures.smartfit.com.br/6077/big/JM_190302_SmartFit_CAS_0228.jpg?1681134866" alt="">
-                    <div class="info">
-                        <h3>Metroplaza Carr.a El
-                            Salvador
-                        </h3>
-                    <p>01051 - km 13.1 - Carr.a El Salvador, Local 208,
-                        Ciudad de Guatemala - 01
-                    </p>
-                    <a class="dosLink" href="/gimnasios/tinajon-quetzaltenango" title="cui" alt=""cui>Ver gimnasio</a>
-                    </div>
-                    <div class="card_plans">    
-                        <div  class="plans_item" href="" title="smart">
-                            <span class="plans_item_name">SMART</span>
-                            <span class="plans_item_price">Q195.00
-                            </span>
-                        </div>
-                        <div  class="plans_item" href="" title="smart">
-                            <span class="plans_item_name">BLACK</span>
-                            <span class="plans_item_price">Q215.00
-                            </span>
-                        </div>
-                        </div>
-                         <!--seccion del boton-->
-                    <div class="boton">¡Inscríbete ya!</div>
-                </div>
-            </div>
-
-            <!--mas opciones-->
-            <div class="container">
-                <button type="button" class="button-link">VER MÁS</button>
+                <button>¡Inscríbete ya!</button>
             </div>
         </div>
-        </div>
 
-       <!--footerr-->
-       <div class="footer">
-       <section>
-        <img src="https://smart-site-assets-prd-0.s3.amazonaws.com/assets/new-home-v4-assets/logo-white.svg" alt="Logo Smart fit" class="logo-footer"
-        width="204" height="75">
-       </section>
-
-       <section>
-        <h2 class="titu-footer">Síguenos</h2>
-        <ul class="redes">
-            <li>
-                <a href="https://www.facebook.com/Smartfitguatemala" target="_blank"></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/smartfitgt/" target="_blank"></a>
-            </li>
-            <li>
-                <a href="https://www.tiktok.com@smartfitgt" target="_blank"></a>
-            </li>
-        </ul>
-       </section>
-
-       <section>
-        <div class="footer_link">
-            <div>
-                <h2 class="footer-title">Smart Fit</h2>
-                <ul>
-                    <li>
-                        <a href="https://www.smartfit.com.gt/hable-con-nosotros">Habla con nosotros</a>
-                    </li>
-                    <li>
-                        <a href="https://www.smartfit.com.gt/store">Smart Fit</a>
-                    </li>
-                </ul>
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/6077/big/JM_190302_SmartFit_CAS_0228.jpg?1681134866" alt="Metroplaza Carr. a El Salvador">
+            <div class="card-body">
+                <h3>Metroplaza Carr. a El Salvador</h3>
+                <p>01051 - Km 13.1 - Carr. a El Salvador, Local 208, Ciudad de Guatemala - 01</p>
+                <a href="#">Ver gimnasio</a>
             </div>
-
-            <div>
-                <h2 class="footer-title">Nuestra Compañia</h2>4
-                <ul>
-                    <li>
-                        <a href="https://www.smartfit.com.gt/planos">Planes Smart Fit</a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://www.smartfit.com.gt/contratos">Contratos</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.smartfit.com.gt/trabaja-con-nosotros">Trabaja con nosotros</a>
-                    </li>
-                </ul>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q195.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
             </div>
         </div>
-       </section>
-       </div>
-    </main>
 
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/9999/big/GoL_220106_SmartFitMIx_0040.jpg?1681132978" alt="MIX San Cristóbal">
+            <div class="card-body">
+                <h3>MIX San Cristóbal</h3>
+                <p>01051 - Boulevard Ciudad San Cristóbal -, Ciudad de Guatemala - 01</p>
+                <a href="#">Ver gimnasio</a>
+            </div>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q175.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price price2">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- seccion_cartas 2 -->
+    <div class="seccion_cartas">
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/6494/big/JM_190907_SmartFitTF_0027.jpg?1681135140" alt="Eskala 2">
+            <div class="card-body">
+                <h3>Tikal Futura</h3>
+                <p>01011 - Calzada Roosevelt 23-43 - , Ciudad de Guatemala -  01 </p>
+                <a href="#">Ver gimnasio</a>
+            </div>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q175.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/10630/big/JM_140224_SmartFitMIRAFLORES_0043.jpg?1664217904" alt="Eskala">
+            <div class="card-body">
+                <h3>Miraflores</h3>
+                <p>01011 - 21 avenida 4-32, zona 11, Local 328, Municipio de Guatemala, Guatemala - Guatemala, Ciudad de Guatemala -  01 </p>
+                <a href="#">Ver gimnasio</a>
+            </div>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q175.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/8829/big/GoL_210314_SmartFit_Madero_0141.jpg?1681136438" alt="Metroplaza Carr. a El Salvador 2">
+            <div class="card-body">
+                <h3>madero Expres Atanasio</h3>
+                <p>01011 - 17 Calle 26-31, Zona 12, CC Madero Express, Fase 2 - , Ciudad de Guatemala -  01 </p>
+                <a href="#">Ver gimnasio</a>
+            </div>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q195.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- seccion_cartas 3 -->
+    <div class="seccion_cartas">
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/10257/big/JM_220411_SmartFitMinutoCAES_0053.jpg?1650309579" alt="Eskala 3">
+            <div class="card-body">
+                <h3>Minuto CAES</h3>
+                <p>01051 - Km 22 - , Fraijanes -  01 </p>
+                <a href="#">Ver gimnasio</a>
+            </div>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q175.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://pictures.smartfit.com.br/10012/big/GoL_220115_SmartFitNARAMA_0017.jpg?1681132588" alt="Metroplaza Carr. a El Salvador 3">
+            <div class="card-body">
+                <h3>Narama Zona 13</h3>
+                <p>01013 - 5a avenida 16-14 - , Ciudad de Guatemala -  01 </p>
+                <a href="#">Ver gimnasio</a>
+            </div>
+            <div class="card-footer">
+                <div class="precio">
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q195.00</p>
+                    </div>
+                    <div>
+                        <p class="price">SMART </p>
+                        <p class="price">Q215.00</p>
+                    </div>
+                </div>
+                <button>¡Inscríbete ya!</button>
+            </div>
+        </div>
+    </div>
+<div class="vermas">
+
+    <div class="ver">
+        VER MÁS
+    </div>
+</div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="https://smart-site-assets-prd-0.s3.amazonaws.com/assets/new-home-v4-assets/logo-white.svg" alt="Logo">
+        </div>
+        <div class="line"></div>
+        <div class="footer-socials">
+            <span>Siguenos</span>
+            <div class="icons">
+                <a href="https://www.facebook.com/smartfitgym/"><img src="https://e7.pngegg.com/pngimages/220/709/png-clipart-logo-computer-icons-black-white-facebook-white-logo.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/smartfitgtoficial/"><img src="https://w7.pngwing.com/pngs/300/178/png-transparent-computer-icons-icon-design-instagram-logo-miscellaneous-area-smile.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/smartfit"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7jS0ox0hH6OARvmqberL7zJjVQ-1rGa0m3w&s" alt="YouTube"></a>
+           
+
+            </div>
+           </div>
+
+           <div class="line"></div>
+
+        <div class="contactos">
+
+            <div class="smar">
+                <span class="uno">Smart Fit</span>
+
+                <span class="dos">Habla con nosotros</span>
+                <span class="dos">Smart Fit</span>
+            </div>
+
+            <div class="smar">
+                <span class="uno">Nuestra Compañia</span>
+
+                <span class="dos">Planes Smart Fit</span>
+                <span class="dos">Contratos</span>
+                <span class="dos">Trabaja con nosotros</span>
+                
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+</div>
 </body>
 </html>
