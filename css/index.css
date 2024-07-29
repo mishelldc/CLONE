@@ -1,4 +1,3 @@
-
 *{
   padding: 0;
   margin: 0;
@@ -19,7 +18,7 @@
 header{
   background-color: white;
   width: 100%;
-  height: 9.9rem;
+  height: 10.9rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -95,7 +94,10 @@ header{
 
 .card img {
   width: 100%;
-  height: 18rem;
+  height: 142px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
 }
 
 .card-body {
@@ -126,8 +128,7 @@ header{
 }
 
 .card-footer {
-  background-color: #f9f9f9;
-  border-top: 1px solid #eee;
+  background-color: white;
   padding: 15px;
   text-align: center;
 }
@@ -236,7 +237,6 @@ footer {
   background-color: white;
   height: 1px;
 }
-
 .footer-socials{
   display: flex;
   justify-content: center;
@@ -246,22 +246,15 @@ footer {
   width: 100%;
   height: 100%;
 }
-
 .footer-socials span{
   font-size: 2.5rem;
 }
-
-.icons{}
-
 .icons a img{
   width: 4rem;
   height: 4rem;
   background-color: white;
   border-radius: 2rem;
 }
-
-.icons a{}
-
 .contactos{
   text-align: start;
   padding: 0rem 40rem;
@@ -304,7 +297,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) 
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     height: auto;
@@ -348,23 +341,19 @@ footer {
   .titulo {
     font-size: 2rem;
   }
-
   .search-bar .search-icon {
     font-size: 25px;
     right: 5rem;
     bottom: 32rem;
   }
-
   .ver {
     width: 25rem;
     height: 3.5rem;
     font-size: 1rem;
   }
-
   footer {
     padding: 0 2rem;
   }
-
   .contactos {
     padding: 0;
   }
